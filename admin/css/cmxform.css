@@ -1,0 +1,242 @@
+/*------- Logo en tete------*/
+#logo4
+{
+	height:80px;
+	margin-left:220px;
+	
+	
+}
+
+#trait4
+{
+	height:5px;
+	margin-left:220px;
+	padding-bottom:30px;
+}
+
+#main h2 
+{
+	margin-left:240px;
+	font-size:25px;
+	
+	
+}
+
+#main h2 span 
+{
+	color:#FF4500;
+}
+
+#main h2 a 
+{
+	text-decoration:none;
+	color:black;
+}
+
+/*------End-----*/
+
+body, div 
+{ 
+   font-family: helvetica, verdana, arial, sans-serif;
+}
+
+body 
+{
+	margin: 0; padding: 0; 
+	font-size: small; 
+	color: #333 
+}
+
+#center
+{
+	margin-left:100px;
+}
+
+#main 
+{
+	
+	width:810px;
+	margin: 60px auto;
+	background:white;
+	
+}
+
+#p
+{
+	margin-left:50px;
+}
+
+
+#signupForm 
+{ 
+   margin-right:100px;
+   background:#DCDCDC;
+   border:1px solid #DCDCDC;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+
+#signupForm label.error 
+{
+	margin-left: 10px;
+	width: auto;
+	display: inline;
+}
+
+.obl 
+{
+	color: #000;
+	font-weight: boldm;
+	font-size:17px;
+	font-style:italic;
+	 font-family:verdana;
+}
+
+form.cmxform 
+{
+	
+	font-size: 1em;
+	color: #FF4500;
+	font-style:italic;
+	 font-family:verdana;
+}
+
+form.cmxform legend 
+{
+	padding-left: 0;
+	padding: 0 2px;	
+	font-weight: bold;	_margin: 0 -7px;
+}
+
+form.cmxform h3, form.cmxform
+ {
+	 color: black;
+	 font-style:italic;
+	 font-family:verdana;
+	 font-size:25px;
+}
+
+
+form.cmxform fieldset 
+{
+	border: none; 
+	border-top: 1px solid #000;
+	margin-bottom: 10px; 
+	
+}
+
+form.cmxform fieldset fieldset 
+{
+	background: none;
+}
+
+form.cmxform fieldset p, form.cmxform fieldset fieldset 
+{
+	padding: 5px 10px 7px;
+}
+
+form.cmxform label 
+{
+	width: 200px; 
+	display: inline-block; 
+	line-height: 1.8; 
+	vertical-align: top; 
+	cursor: hand; 
+	text-align: rightm
+} 
+
+select
+{
+	width: 170px; 
+	display: inline-block; 
+	line-height: 1.8; 
+	vertical-align: top; 
+	cursor: hand; 
+	text-align: rightm;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+/* largeur des étiquettes */
+
+form.cmxform label.error, label.error 
+{
+	color:#FF4500;
+	font-style: italicm;
+	font-size:15px;
+}
+
+form.cmxform fieldset p 
+{
+	list-style: none;
+	padding: 5px;
+	margin: 0;
+}
+
+
+div.error 
+{ 
+   display: none; 
+}
+
+input[type=text],input[type=password], input[type=email], input[type=tel],select
+{
+	padding-bottom:10px;
+	padding-top:10px;
+	width:240px;
+}
+
+input[type=submit]
+{
+	padding-bottom:10px;
+	padding-top:10px;
+	width:200px;
+	background:#FF4500;
+	cursor:pointer;
+	margin-left:230px;
+}
+
+h3
+{
+	margin-left:50px;
+}
+
+.uti
+{
+	background:red;
+	margin-right:105px;
+
+}
+
+
+ input
+{
+	color:black;
+	font-size: 16px;
+      
+}
+
+input.checkbox 
+{ 
+   border: none
+}
+
+input:focus 
+{
+	border: 2px dotted black;
+}
+
+form.cmxform .gray * 
+{ 
+color: gray; 
+}
+
+
+
+ form.cmxform #error
+ {
+	 font-style:italic;
+	 font-family:verdana;
+	 font-size:20px;
+	 color:#FF4500;
+ }

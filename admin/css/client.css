@@ -1,0 +1,203 @@
+body
+{
+	background:#DCDCDC;
+	 font-family:arial;
+}
+#cont
+{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	background:white;
+	height:100%;
+	font-family:arial;
+}
+
+#ajout_compteur, #mes_compteurs, #profil, #payer_facture,#traitement,#procedure
+{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	background:white;
+	padding-bottom:50%;
+	font-family:arial;
+}
+
+/*----Menu----*/
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+	padding-left:30px;
+	padding-bottom:20px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    float: left;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 250px;
+	
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    left: 0;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 25px 30px;
+    text-decoration: none;
+	font-size: 25px;
+    display: block;
+}
+
+.dropdown a:hover
+ {
+	background-color: #5A5E6B;
+	border:1px solid #f1f1f1;
+	border-radius:10px;
+	color:white;
+}
+
+.show {display:block;}
+/*---End ----*/
+
+#log
+{
+	margin-left:800px;
+	border:1px solid #DCDCDC;
+	padding-left:5px;
+	cursor:pointer;
+	
+}
+
+.f
+{
+	font-size:40px;
+}
+
+.f1
+{
+	color:#FF4500;
+}
+
+#logo
+{
+	height:60px;
+}
+
+
+#tarifs 
+{
+	margin-left:100px;
+	 font-style:italic;
+	font-family:Georgia;
+	font-size:20px;
+}
+
+.dropdown-content a .client
+{
+	color:#FF4500;
+	
+}
+
+/*-----Style de profil----*/
+
+
+#infos
+{
+   padding-bottom:50%;
+}
+
+
+#infos .donnees
+{
+	color:#FF4500;
+}
+
+#photo
+{
+	border-radius:20px
+}
+#infos p 
+{
+	text-align:center;
+}
+/*---END---*/
+
+/*---- payer_facture ---*/
+#infos_payer, #infos_traitement,#infos_procedure h1
+{
+	text-align:center;
+	padding-top:50px;
+	
+}
+
+#infos_procedure h2
+{
+	margin-left:150px;
+}
+
+.A1
+{
+	margin-left:50px;
+}
+
+.A, .A1
+{
+	color:#FF4500;
+}
+
+.input
+{
+	width:100px;
+}
+
+.inputct
+{
+	width:100px;
+}
+
+
+.inputid
+{
+	width:30px;
+}
+
+#input
+{
+	color:#FF4500;
+}
+
+.infos_payer
+{
+	border:1px solid #DCDCDC;
+	background:#DCDCDC;
+	margin-left:100px;
+	margin-right:100px;
+	padding-bottom:50px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	
+	
+}
+
+#statuts
+{
+	text-align:center;
+}

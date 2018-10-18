@@ -1,0 +1,129 @@
+body
+ {
+	 font:15px arial,tahoma,verdana;
+ }
+
+ #content
+ {
+	 width:960px;
+	margin-top:auto;
+	margin-right:auto;
+	margin-left:auto;
+	padding-bottom:50%;
+	background:#DCDCDC;
+	font-family:arial;
+	 position:relative;
+ }
+.nav 
+{ 
+     margin:0; 
+     padding:0; 
+     list-style:none;
+	 
+}
+
+.nav li 
+{ 
+       float:left; 
+	   width:150px;
+	   position:relative;
+	   
+}
+
+.nav li a 
+{ 
+    background:#333; 
+    color:#fff; 
+    display:block; 
+    padding:6px 5px;
+	text-decoration:none;
+	border-top:1px solid #069;
+	border-radius:10px;
+	
+}
+
+.nav li a:hover 
+{ 
+   color:#069;
+}
+
+/*=== sous menu ===*/
+.nav ul 
+{
+	display:none; 
+	position:absolute; 
+	left:0; 
+	list-style:none; 
+	padding:0; 
+}
+
+.nav ul li 
+{ 
+   width:200px; 
+   float:left; 
+} 
+
+.nav ul a
+ { 
+    display:block;
+	height:50px;
+	padding:7px 8px; 
+	color:#fff; 
+	text-decoration:none;
+	border-bottom:1px solid #222; 
+	font-size:16px;
+}
+
+.nav ul a:hover 
+{ 
+   color:red;
+   background: white;   
+}
+
+/* -----End sous menu----*/
+
+
+#client
+{
+	background:white;
+}
+
+#logo, #tete h2
+ {
+	 display:inline-block;
+ 	
+ }
+ 
+ #logo
+ {
+	height:40px; 
+ }
+ 
+ #tete 
+ {
+	 margin-left:800px;
+	 border:1px solid #DCDCDC;
+	 cursor:pointer;
+	 padding-bottom:0px;
+	 padding-left:20px;
+ }
+ 
+ #tete h2 
+ {
+	 margin-left:10px;
+ }
+ 
+ #tete h2 span
+ {
+	 color:#FF4500;
+ }
+ #tete h2 a
+ {
+	 color:black;
+	 text-decoration:none;
+	 font-size:25px;
+	 
+ }
+ 
+ 
+ 

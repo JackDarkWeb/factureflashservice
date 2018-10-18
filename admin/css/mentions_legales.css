@@ -1,0 +1,42 @@
+*
+{
+	padding:0px;
+	margin:0px;
+}
+
+ body
+ {
+	 background:#DCDCDC;
+	 font-family:arial;
+	 
+ }
+ 
+#mentions
+{
+	width:960px;
+	margin-top:auto;
+	margin-right:auto;
+	margin-left:auto;
+	padding-bottom:50%;
+	background:white;
+	font-family:arial;
+	 position:relative;
+}
+
+#mentions p, h2, h3, h1
+{
+	margin-left:100px;
+	font-style:italic;
+	font-family:Georgia;
+}
+ul 
+{
+	margin-left:150px;
+	font-style:italic;
+	font-family:Georgia;
+}
+
+span a 
+{
+	text-decoration:none;
+}
